@@ -7,15 +7,19 @@ on:
     paths:
       - 'docs/**' # Only run if docs change
 
-
+jobs:
+  sync:
     runs-on: ubuntu-latest
     name: Sync to Confluence
+    steps:
       - name: Checkout Code
         uses: actions/checkout@v4
+
       - name: Publish to Confluence
         uses: markdown-confluence/publish-action@v5
-      confluenceBaseUrl: "https://awaysonwatkins.atlassian.net"
-          confluenceParentId: "1310735"
+        with:
+          confluenceBaseUrl: "https://awaysonwatkins.atlassian.net"
+          confluenceParentId: "1310735" 
           atlassianUserName: ${{ secrets.CONFLUENCE_EMAIL }}
           atlassianApiToken: ${{ secrets.CONFLUENCE_API_TOKEN }}
           folderToPublish: "docs"
