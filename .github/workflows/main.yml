@@ -1,25 +1,27 @@
-name: Publish to Confluence
-
+name: Sync to Confluence
+ 
+ 
 on:
   push:
     branches:
       - main
     paths:
-      - 'docs/**' # Only run if docs change
-
+      - 'docs/**'
+ 
+ 
 jobs:
-  sync:
+  publish:
     runs-on: ubuntu-latest
-    name: Sync to Confluence
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v4
-
-      - name: Publish to Confluence
+        uses: actions/checkout@v5
+ 
+ 
+      - name: Publish Markdown to Confluence
         uses: markdown-confluence/publish-action@v5
         with:
           confluenceBaseUrl: "https://awaysonwatkins.atlassian.net"
-          confluenceParentId: "1310735" 
+          confluenceParentId: "1277953" #update to your page ID
           atlassianUserName: ${{ secrets.CONFLUENCE_EMAIL }}
           atlassianApiToken: ${{ secrets.CONFLUENCE_API_TOKEN }}
-          folderToPublish: "docs"
+          folderToPublish: "docs" #Ruby-Publish
