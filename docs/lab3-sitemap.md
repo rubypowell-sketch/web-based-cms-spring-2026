@@ -1,15 +1,20 @@
-*   [Home](https://www.example.com)
-    *   [About Us](https://www.example.comabout/)
-        *   [Our Team](https://www.example.comabout/team/)
-        *   [Our History](https://www.example.comabout/history/)
-    *   [Services](https://www.example.comservices/)
-        *   [Service A](https://www.example.comservices/a/)
-        *   [Service B](https://www.example.comservices/b/)
-        *   [Service C](https://www.example.comservices/c/)
-    *   [Blog](https://www.example.comblog/)
-        *   [Category 1](https://www.example.comblog/category1/)
-            *   [Post 1](https://www.example.comblog/category1/post1/)
-            *   [Post 2](https://www.example.comblog/category1/post2/)
-        *   [Category 2](https://www.example.comblog/category2/)
-    *   [Contact Us](https://www.example.comcontact/)
-    *   [Privacy Policy](https://www.example.comprivacy/)
+*   Home
+   *   Employee Handbook
+      * Getting Started
+              * Email Dave to get your computer set up.
+      * Remote Work Policy
+              * You must work from the office at least 3 times a week.
+      * Software Installtion
+          * Skype for Business
+          * Internet Explorer 11
+          * Adobe Flashplayer
+       * Kitchen Etiquette
+          * Don't leave dishes in sink
+          * Cleaning crew comes on Tuesdays and Thursdays
+          * If you drink the last of the coffee, make more
+       * VPN Access
+          *  Download the Cisco client
+          *  Use IP Address 192.168.1.55
+          *  Ask Dave for the password
+    *   Marketing
+    *   Server Configuration
