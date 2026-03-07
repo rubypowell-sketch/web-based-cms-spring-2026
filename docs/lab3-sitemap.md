@@ -43,3 +43,9 @@
        (requires Node v14 or higher)
 
 Justification:
+*Employee Handbook:
+Information regarding remote working was removed because it was outdated and contradicted itself. For example, in 2020 it was said that it was required for employees to work from the office on fridays, but was updated to at least 3 times a week in 2022. So the information from 2020 was removed. Informatiom regarding the model of coffee maker and directions for making coffee was removed as well because it was trivial. The last thing that was not included was the password because you would not want to publibly display your password.
+*Marketing:
+Info regarding the legacy server being "sunsetted" was removed because it was outdated. More outdated info that was removed was it being mobile ready for Blackberry devices. 
+*Server Configuration:
+Removed the todo at the top because it was not needed. Also removed the info under "copying the config object here for reference" because it was not needed due to it only being a reference for the person who originally wrote the file.
