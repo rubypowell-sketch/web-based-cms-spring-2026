@@ -37,7 +37,7 @@
      * Known Issues
         * The "Dark Mode" feature crashes if you click it twice
         * Documented workaround: Tell users to refresh the page
-        * The legacy login (http://oold-intranet) is dead. Do not link it
+        * The legacy login (http://old-intranet) is dead. Do not link it
      * Run command to start:
        * npm run start: prod
        (requires Node v14 or higher)
