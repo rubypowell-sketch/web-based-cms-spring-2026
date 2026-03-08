@@ -21,7 +21,7 @@ jobs:
         uses: markdown-confluence/publish-action@v5
         with:
           confluenceBaseUrl: "https://awaysonwatkins.atlassian.net"
-          confluenceParentId: "1277953" #update to your page ID
+          confluenceParentId: "1310735" 
           atlassianUserName: ${{ secrets.CONFLUENCE_EMAIL }}
           atlassianApiToken: ${{ secrets.CONFLUENCE_API_TOKEN }}
           folderToPublish: "docs" #Ruby-Publish
