@@ -41,9 +41,6 @@ If there is an error the JSON will look like:
 }
 
 
- A[Developer: Request authorization] --> B(Server recieves request: Validates token)
-    B --> C{Is the token valid?}
-    C -->|Yes| D[Process request- Return 200 Success]
-    C -->|No| E[Reject request- Send 401 error]
-   
+<img width="1172" height="1215" alt="image" src="https://github.com/user-attachments/assets/fea6ef41-ff66-4292-b28f-f95c6d6ffb92" />
+
   
